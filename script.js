@@ -22,7 +22,7 @@ function compute() {
         '\nin the year ' + (futureYear);
      errorMethod = function() {
         var princ = document.getElementById("principal").value;
-        if (princ <= 0) {
+        if (princ <= 0 || princ =='') {
             alert("Enter a postive number");
             
         }
